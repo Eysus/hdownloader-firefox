@@ -3,4 +3,18 @@
     "name": "HDownloder",
     "version": "0.1",
     "description": "Allow to DL torrent directly from website list.",
+    "homepage_url": "https://github.com/Eysus/hdownloader-firefox",
+    "permissions": [
+        "activeTab"
+      ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.nhentai.net/*"
+            ],
+            "js": [
+                "js/nhentai.js"
+            ]
+        }
+    ]
 }
