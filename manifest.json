@@ -1,0 +1,6 @@
+{
+    "manifest_version": 2,
+    "name": "HDownloder",
+    "version": "0.1",
+    "description": "Allow to DL torrent directly from website list.",
+}
