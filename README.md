@@ -30,8 +30,7 @@ Isn't it annoying to have to wait for your browser to load the images one by one
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@Eysus](https://github.com/Eysus)
+* [@Eysus](https://github.com/Eysus)
 
 ## Version History
 
@@ -45,5 +44,3 @@ ex. [@Eysus](https://github.com/Eysus)
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
