@@ -1,6 +1,6 @@
 # HDownloader - A Firefox Extension
 
-Let you download from the list page of your favorite hentai site (Yeah, for now it's only one.)
+Give you a quicker access to the download button of your favorite JAV and Hentai !
 
 ## Description
 
@@ -33,7 +33,8 @@ Contributors names and contact info
 * [@Eysus](https://github.com/Eysus)
 
 ## Version History
-
+* 0.3
+    * Add jav.guru management (list & jav page)
 * 0.2
     * Add nhentai management
     * Add README.md
