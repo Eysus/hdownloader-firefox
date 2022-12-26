@@ -4,7 +4,7 @@ for (let element of document.getElementsByClassName("cover")) {
     a.title = "Download gallery";
     a.href = url;
     a.style = "position: absolute";
-    a.className = "hdown-download";
+    a.className = "btn btn-primary";
 
     let i = document.createElement('i');
     i.className = "fa fa-download";
