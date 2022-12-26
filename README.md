@@ -33,6 +33,8 @@ Contributors names and contact info
 * [@Eysus](https://github.com/Eysus)
 
 ## Version History
+* 0.3.1
+    * Fix nhentai button style
 * 0.3
     * Add jav.guru management (list & jav page)
 * 0.2
