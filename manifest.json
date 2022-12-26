@@ -10,12 +10,16 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.nhentai.net/*"
+                "*://*.nhentai.net/*",
+                "*://*.jav.guru/*"
             ],
             "js": [
-                "js/nhentai.js"
+                "js/nhentai.js",
+                "js/javguru.js"
             ],
             "css": [
+                "css/default.css",
+                "css/javguru.css",
                 "css/nhentai.css"
             ]
         

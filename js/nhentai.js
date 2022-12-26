@@ -1,12 +1,12 @@
 for (let element of document.getElementsByClassName("cover")) {
     const url = element["href"] + "download";
-    var a = document.createElement('a');
+    let a = document.createElement('a');
     a.title = "Download gallery";
     a.href = url;
     a.style = "position: absolute";
-    a.className = "btn btn-primary";
+    a.className = "hdown-download";
 
-    var i = document.createElement('i');
+    let i = document.createElement('i');
     i.className = "fa fa-download";
     a.appendChild(i);
 
