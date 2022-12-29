@@ -13,14 +13,16 @@ Isn't it annoying to have to wait for your browser to load the images one by one
 * Any IDE that you know how to develop on and that supports JS and HTML
 * Internet because you don't need to know how to code, only to copy/paste (I think it's obvious that i'm not a JS developer...)
 
-### Installing
+### Installing (Developer)
 
 1. Download
 2. Extract
 3. Access to `aboud:debugging` on Firefox
 4. In Temporary extensions, load your `manifest.json` file
 
-(I don't know how to add it permanently, but it should be possible)
+### Installing (User)
+
+[Official documentation](https://support.mozilla.org/en-US/kb/unable-install-add-ons-extensions-or-themes?redirectslug=Unable+to+install+add-ons&redirectlocale=en-US#w_you-are-asked-to-download-the-add-on-rather-than-installing-it)
 
 ### Executing program
 
@@ -33,6 +35,8 @@ Contributors names and contact info
 * [@Eysus](https://github.com/Eysus)
 
 ## Version History
+* 1.0.0
+    * 
 * 0.3.1
     * Fix nhentai button style
 * 0.3
