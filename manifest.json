@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "HDownloder",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Allow to DL torrent directly from website list.",
     "homepage_url": "https://github.com/Eysus/hdownloader-firefox",
     "permissions": [
@@ -22,7 +22,6 @@
                 "css/javguru.css",
                 "css/nhentai.css"
             ]
-        
         }
     ]
 }
