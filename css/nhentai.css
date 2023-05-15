@@ -2,3 +2,12 @@
 .btn.btn-secondary#download:visited {
     background: #A2A2A2;
 }
+
+.bulk-box {
+    position: fixed;
+    bottom: 45px;
+    left: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
