@@ -35,6 +35,8 @@ Contributors names and contact info
 * [@Eysus](https://github.com/Eysus)
 
 ## Version History
+* 1.1.0
+    * Add bulk download for nhentai (per page)
 * 1.0.0
     * 
 * 0.3.1
