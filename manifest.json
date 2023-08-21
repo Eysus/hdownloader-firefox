@@ -11,11 +11,15 @@
         {
             "matches": [
                 "*://*.nhentai.net/*",
+                "*://*.e-hentai.org/*",
+                "*://*.exhentai.org/*",
                 "*://*.jav.guru/*",
                 "*://www.javlibrary.com/*"
             ],
             "js": [
+                "js/utils.js",
                 "js/nhentai.js",
+                "js/egallery.js",
                 "js/javguru.js",
                 "js/javlibrary.js"
             ],
