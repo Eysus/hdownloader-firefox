@@ -35,6 +35,8 @@ Contributors names and contact info
 * [@Eysus](https://github.com/Eysus)
 
 ## Version History
+* 1.3.0
+    * Add link in gallery title for search galleries with same name
 * 1.2.0
     * Add support for JAV Library
 * 1.1.0
