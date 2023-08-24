@@ -1,4 +1,5 @@
 if (hostname() == "nhentai.net") {
+  const buttons = [];
   if (path().match(/^\/g\/\d+/)) {
     const title = document.getElementsByClassName("pretty")[0];
     let parsedTitle = sanitize(title.innerText.split("|")[0]);
@@ -7,8 +8,6 @@ if (hostname() == "nhentai.net") {
       window.location = `https://nhentai.net/search/?q=%22${parsedTitle}%22`;
     };
   } else {
-    const buttons = [];
-
     for (let element of document.getElementsByClassName("cover")) {
       const url = element["href"] + "download";
       let newButton = createButton(url, "Download gallery");
