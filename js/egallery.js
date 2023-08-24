@@ -1,4 +1,4 @@
-if (hostname().match(/e.hentai\.org/).length > 0 ) {
+if (hostname().match(/e.hentai\.org/) != null) {
     if (path().match(/^\/g\/\d+/)) {
       const title = document.getElementById("gn");
       let parsedTitle = sanitize(title.innerText.split("|")[0]);
