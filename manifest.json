@@ -5,8 +5,15 @@
     "description": "Allow to DL torrent directly from website list.",
     "homepage_url": "https://github.com/Eysus/hdownloader-firefox",
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "https://sukebei.nyaa.si/*"
       ],
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
     "content_scripts": [
         {
             "matches": [
