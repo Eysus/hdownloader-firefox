@@ -34,26 +34,6 @@ Contributors names and contact info
 
 * [@Eysus](https://github.com/Eysus)
 
-## Version History
-* 1.3.0
-    * Add link in gallery title for search galleries with same name
-* 1.2.0
-    * Add support for JAV Library
-* 1.1.0
-    * Add bulk download for nhentai (per page)
-* 1.0.0
-    * 
-* 0.3.1
-    * Fix nhentai button style
-* 0.3
-    * Add jav.guru management (list & jav page)
-* 0.2
-    * Add nhentai management
-    * Add README.md
-    * Add LICENSE (MIT)
-* 0.1
-    * Create the repo
-
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
