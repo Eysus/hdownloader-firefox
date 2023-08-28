@@ -1,19 +1,9 @@
 if (hostname() == 'www.javlibrary.com') {
   const code = document.getElementById("video_id").getElementsByClassName("text")[0].textContent;
-  const url = `https://sukebei.nyaa.si/?f=0&c=0_0&q=${code}&s=seeders&o=desc`
-
-  const seedValue = document.createElement("span");
-  seedValue.id = "hdown-seed"
-
-  let dlLink = document.createElement('a')
-  dlLink.title = 'Nyaa'
-  dlLink.textContent = 'Nyaa'
-  dlLink.href = url
-  dlLink.appendChild(seedValue)
 
   const span = document.createElement('span')
   span.className = "genre"
-  span.appendChild(dlLink)
+  span.appendChild(getNyaaLink(code, "Nyaa"))
 
   const text = document.createElement('td');
   text.className = "text"
@@ -41,5 +31,4 @@ if (hostname() == 'www.javlibrary.com') {
   const container = document.getElementById("video_info")
   container.appendChild(div)
 
-  getNyaaSeedValue(url)
 }

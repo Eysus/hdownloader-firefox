@@ -23,9 +23,12 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    position: absolute;
-    top: 15px;
-    left: 15px;
+}
+
+.hbtn-corner {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
 .hbtn:hover,
