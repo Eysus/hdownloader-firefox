@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "HDownloder",
-    "version": "1.3.2",
+    "version": "1.4.0",
     "description": "Allow to DL torrent directly from website list.",
     "homepage_url": "https://github.com/Eysus/hdownloader-firefox",
     "permissions": [
@@ -21,6 +21,7 @@
                 "*://*.e-hentai.org/*",
                 "*://*.exhentai.org/*",
                 "*://*.jav.guru/*",
+                "*://hanime.tv/*",
                 "*://www.javlibrary.com/*"
             ],
             "js": [
@@ -28,6 +29,7 @@
                 "js/nhentai.js",
                 "js/egallery.js",
                 "js/javguru.js",
+                "js/hanimetv.js",
                 "js/javlibrary.js"
             ],
             "css": [

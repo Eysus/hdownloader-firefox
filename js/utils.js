@@ -1,3 +1,7 @@
+const ANI_FILTER = "&c=1_1";
+const JAV_FILTER = "&c=2_2";
+const NYAA_BASE_URL = "https://sukebei.nyaa.si/?f=0&s=seeders&o=desc";
+
 sanitize = (str) => {
   return str
     .replace(/(((\(([^\)]+)\))|\s|(\[([^\]]+)\])|(\{([^\}]+)\}))*)$/, "")
@@ -7,6 +11,7 @@ sanitize = (str) => {
 
 hostname = () => window.location.hostname;
 path = () => window.location.pathname;
+buildNyaaUrl = (search, filter) => NYAA_BASE_URL + "&q=" + search + filter;
 
 getNyaaSeedValue = (url) => {
   fetch(url)
@@ -26,8 +31,8 @@ getNyaaSeedValue = (url) => {
     });
 };
 
-getNyaaLink = (code, title = "") => {
-  const url = `https://sukebei.nyaa.si/?f=0&c=0_0&q=${code}&s=seeders&o=desc`
+getNyaaLink = (code, title = "", filter = "") => {
+  const url = buildNyaaUrl(code, filter);
 
   const seedValue = document.createElement("span");
   seedValue.id = "hdown-seed";
@@ -42,3 +47,4 @@ getNyaaLink = (code, title = "") => {
   
   return dlLink
 };
+
