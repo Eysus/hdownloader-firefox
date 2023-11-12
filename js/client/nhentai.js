@@ -2,7 +2,7 @@ if (Utils.hostname() == "nhentai.net") {
   const buttons = [];
   if (Utils.path().match(/^\/g\/\d+/)) {
     const title = document.getElementsByClassName("pretty")[0];
-    let parsedTitle = sanitize(title.innerText.split("|")[0]);
+    let parsedTitle = Utils.sanitize(title.innerText.split("|")[0]);
     parsedTitle = parsedTitle.replace(" ", "+");
     title.onclick = () => {
       window.location = `https://nhentai.net/search/?q=%22${parsedTitle}%22`;
