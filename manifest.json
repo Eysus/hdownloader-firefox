@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "HDownloder",
-    "version": "1.4.0",
+    "version": "2.0.0",
     "description": "Allow to DL torrent directly from website list.",
     "homepage_url": "https://github.com/Eysus/hdownloader-firefox",
     "permissions": [
@@ -11,7 +11,7 @@
         "https://sukebei.nyaa.si/*"
       ],
     "background": {
-        "scripts": ["js/background.js"],
+        "scripts": ["js/core/background.js"],
         "persistent": false
     },
     "content_scripts": [
@@ -25,12 +25,14 @@
                 "*://www.javlibrary.com/*"
             ],
             "js": [
-                "js/utils.js",
-                "js/nhentai.js",
-                "js/egallery.js",
-                "js/javguru.js",
-                "js/hanimetv.js",
-                "js/javlibrary.js"
+                "js/core/utils.js",
+                "js/core/nyaa.js",
+                "js/core/dombuilder.js",
+                "js/client/nhentai.js",
+                "js/client/egallery.js",
+                "js/client/javguru.js",
+                "js/client/hanimetv.js",
+                "js/client/javlibrary.js"
             ],
             "css": [
                 "css/default.css",

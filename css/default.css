@@ -39,3 +39,27 @@
 .hbtn:visited {
     background: #A2A2A2;
 }
+
+.htable {
+  background: #f6f6f6;
+  border-radius: 8px;
+  border-spacing: 0;
+}
+
+.htable thead {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+}
+
+.htable tbody {
+  text-align: right;
+}
+
+.htable td {
+  padding:  4px 16px;
+}
+
+.htable tbody tr:hover {
+  background-color: #A2A2A2;
+}

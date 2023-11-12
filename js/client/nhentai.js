@@ -1,6 +1,6 @@
-if (hostname() == "nhentai.net") {
+if (Utils.hostname() == "nhentai.net") {
   const buttons = [];
-  if (path().match(/^\/g\/\d+/)) {
+  if (Utils.path().match(/^\/g\/\d+/)) {
     const title = document.getElementsByClassName("pretty")[0];
     let parsedTitle = sanitize(title.innerText.split("|")[0]);
     parsedTitle = parsedTitle.replace(" ", "+");
